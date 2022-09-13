@@ -16,7 +16,7 @@ img {
 } 
 
 .inner {
-	max-width: 1280px;
+	width: 100%;
 	display: flex;
 	align-items: center;
 }
@@ -44,7 +44,7 @@ img {
 }
 
 #header {
-	width: 1280px;
+	width: 100%;
 	height: 60px;
 	display: flex;
 	justify-content: space-between;
@@ -54,15 +54,16 @@ img {
 		.logo {
 			width: 40px;
 			line-height: 1;
-			margin: 0 480px 0 160px ;
+			margin: 0 0 0 160px ;
 		}
 	
 		ul {
+			margin-left: 480px;
 			display: flex;
 			align-items: center;
 		}
 		li {
-			margin-right: 30px;
+			margin-right: 25px;
 			font-size: 15px;
 			color: #000;
 			list-style: none;
@@ -164,13 +165,14 @@ img {
 }
 
 #news {
-	width: 1280px;
+	width: 100%;
 	height: 568px;
 	background-color: #F0F4FA;
 	padding: 33px 240px 50px 240px;
 	margin-bottom: 53px;
 
 	.table {
+		width: 800px;
 		border-collapse: collapse;
 		display: table;
   		margin: 29.5px auto;
@@ -307,14 +309,13 @@ img {
 }
 
 #footer {
-	width: 1280px;
+	width: 100%;
 	height: 80px;
 	display: flex;
 	align-items: center;
 	background-color: #000;
 
 		ul {
-			width: 280px;
 			display: flex;
 			align-items: center;
 			margin-left: 160px;
